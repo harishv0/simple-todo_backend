@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/task")
-@CrossOrigin(origins = "https://simplet-todo.netlify.app")
+@CrossOrigin(origins = "http://localhost:3000")
 public class TaskController {
 
     @Autowired
